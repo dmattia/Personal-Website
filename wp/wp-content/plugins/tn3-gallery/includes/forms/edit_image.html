@@ -1,0 +1,89 @@
+<!-- 630x440 -->
+<style type="text/css">
+    .tn3-image-edit {
+	text-align: left;
+	height: 87%;
+    }
+    .tn3-image-edit label{
+	width: 100%;
+	float: left;
+	padding: 5px;
+    }
+    .tn3-image-edit label span.title {
+	display: block;
+	float: left;
+	width: 6em;
+    }
+    .tn3-image-edit label span.input-text-wrap {
+	display: block;
+	margin-left: 6em;
+    }
+    .tn3-image-edit label input,textarea {
+	width: 100%;
+    }
+    .tn3-image-edit label span {
+	display: block;
+    }
+    .tn3-img-nav {
+	float: right;
+	margin-top: 12px;
+    }
+    .tn3-img {
+	width: 60px;
+	height: 60px;
+	padding: 8px;
+	border: 1px solid #DFDFDF;
+	margin: 2px;
+	float:left;
+    }
+    .tn3-nav-arrow, .tn3-img-nav a:link {
+	font-family: sans-serif;
+	width: 10px;
+	text-decoration: none;
+	padding: 3px 6px 6px;
+	font-weight: bold;
+	background-color: #eee;
+	color: #999;
+    }
+    .tn3-nav-arrow:hover {
+	color: #dd0000;
+    }
+    
+</style>
+
+<div class="tn3-image-edit">
+    <div class="tn3-img" />
+    <div class="tn3-img-nav">
+	<a href="javascript:tn3.setEditImageProps('prev')">
+	    <span class="tn3-nav-arrow">‹</span></a> <a href="javascript:tn3.setEditImageProps('next')"><span class="tn3-nav-arrow">›</span>
+	</a>
+    </div>
+    <label>
+	<span class="title">Title</span>
+	<span class="input-text-wrap"><input type="text" name="tn3_image_title" class="ptitle" value="" /></span>
+    </label>
+    <label>
+	<span class="title">Description</span>
+	<span class="input-text-wrap"><textarea cols="22" rows="3" name="tn3_image_description" class=""></textarea></span>
+    </label>
+    <label>
+	<span class="title">URL</span>
+	<span class="input-text-wrap"><input type="text" name="tn3_image_url" class="ptitle" value="" /></span>
+    </label>
+    <label>
+	<span class="title">Content</span>
+	<span class="input-text-wrap">
+	    <select id="tn3_content_select" name="tn3_image_content_type">
+	      <option value="image" selected>Image</option>
+	      <option value="html">HTML</option>
+	      <option value="video">Video</option>
+	    </select>
+	</span>
+    </label>
+    <label>
+	<span id="tn3_content_html" class="input-text-wrap tn3_con"><textarea cols="22" rows="7" name="tn3_image_content" class=""></textarea></span>
+    </label>
+    <label>
+	<span id="tn3_content_video" class="input-text-wrap tn3_con"><input type="text" name="tn3_image_content" class="ptitle" value="" /></span>	    
+    </label>
+</div>

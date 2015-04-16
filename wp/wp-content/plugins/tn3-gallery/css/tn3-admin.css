@@ -1,0 +1,215 @@
+.widefat td.path img{
+   padding: 8px;
+   border: 1px solid #dfdfdf;
+   margin: 2px;
+} 
+.widefat .column-path {
+    width: 88px;
+}
+.widefat .column-title {
+    width: 190px;
+}
+.widefat .column-description {
+    width: 290px;
+}
+.widefat .column-create_time {
+    width: 90px;
+}
+.widefat .column-modify_time {
+    width: 90px;
+}
+.widefat .column-description {
+    width: 260px;
+}
+.widefat .column-contains {
+    width: 100px;
+    text-align: left;
+}
+.widefat .column-contained {
+    width: 100px;
+    text-align: left;
+}
+
+#tn3-block-select {
+    width: 800px;
+    height: 460px;
+    text-align: "left";
+}
+#tn3-table-select {
+    margin-top: 1px;
+    height: 360px;
+    overflow: auto;
+}
+#tn3-table-select td.path img{
+   padding: 0px;
+   border: none;
+   margin: 2px;
+} 
+#tn3-table-select th.column-path {
+    width: 48px;
+}
+.tn3-fieldset {
+    font-family: Georgia,"Times New Roman","Bitstream Charter",Times,serif;
+    font-style: italic;
+    font-size: 12px;
+    line-height: 1.8em;
+    float:left;
+}
+.tn3-fieldset .title{
+    vertical-align:top;
+}
+.tn3-sort-item {
+    margin: 6px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    float: left;
+}
+.tn3-sort-item img {
+    width: 60px;
+    height: 60px;
+    margin: 5px;
+}
+.tn3-sort-hidden {
+    display: none;
+}
+.tn3-album-thumb {
+    background: transparent url('images/add_photo.gif') no-repeat scroll 10px 10px;
+    width: 80px;
+    height: 80px;
+    cursor: pointer;
+}
+.tn3-crop-thumb {
+    float: right;
+    margin-bottom: 8px;
+    text-align: right;
+}
+.tn3-help-list-title {
+    cursor: pointer;
+    color: gray;
+    background: transparent url(../images/arrows.png) no-repeat 0px -1px;
+    padding-left: 14px;
+}
+.tn3-help-list-title-on {
+    background: transparent url(../images/arrows.png) no-repeat 0px -33px;
+}
+.tn3-help-list-title:hover {
+    color: black;
+}
+.tn3-help-list img {
+    padding:10px;
+}
+.tn3-help-list ol {
+    padding:10px;
+}
+#contextual-help-wrap .tn3-help-list li {
+    list-style-type: decimal;
+}
+
+/* Fixes issue here http://code.google.com/p/jcrop/issues/detail?id=1 */
+.jcrop-holder { text-align: left; }
+
+.jcrop-vline, .jcrop-hline
+{
+	font-size: 0;
+	position: absolute;
+	background: white url('images/Jcrop.gif') top left repeat;
+}
+.jcrop-vline { height: 100%; width: 1px !important; }
+.jcrop-hline { width: 100%; height: 1px !important; }
+.jcrop-handle {
+	font-size: 1px;
+	width: 7px !important;
+	height: 7px !important;
+	border: 1px #eee solid;
+	background-color: #333;
+	*width: 9px;
+	*height: 9px;
+}
+
+.jcrop-tracker { width: 100%; height: 100%; }
+
+.custom .jcrop-vline,
+.custom .jcrop-hline
+{
+	background: yellow;
+}
+.custom .jcrop-handle
+{
+	border-color: black;
+	background-color: #C7BB00;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+}
+
+
+
+
+
+
+#tn3-dialog {
+    display: none;
+    line-height: 1.4em;
+    font-size: 12px;
+    padding: 5px;
+}
+#tn3-tab-source {
+    position:relative;
+    height: 300px;
+}
+.tn3-source-nav {
+    float:left;
+    width: 90px;
+}
+.tn3-source-nav li {
+    padding: 5px;
+    background-color: #eee;
+    text-align: center;
+}
+.tn3-source {
+    float: left;
+    margin-left: 20px;
+    width: 100%;
+}
+#tn3-cancel {
+    color: #ff0000;
+    float: left;
+    border-bottom: 1px solid #ff0000;
+    padding: 0px 3px 0px 2px;
+    cursor: pointer;
+    line-height: 16px;
+    font-size: 11px;
+}
+#tn3-cancel:hover {
+    background-color: #ff0000;
+    color: #ffffff;
+}
+#tn3-ok {
+    float: right;
+}
+#tn3-submit-ok {
+    line-height: 23px;
+    float: right;
+}
+#tn3-dialog-nav {
+    width: 100%;
+    height: 10%;
+}
+/*
+ * jQuery UI Tabs 1.8.11
+ *
+ * Copyright 2011, AUTHORS.txt (http://jqueryui.com/about)
+ * Dual licensed under the MIT or GPL Version 2 licenses.
+ * http://jquery.org/license
+ *
+ * http://docs.jquery.com/UI/Tabs#theming
+ */
+.ui-tabs { position: relative; padding: .2em; zoom: 1; } /* position: relative prevents IE scroll bug (element with position: relative inside container with overflow: auto appear as "fixed") */
+.ui-tabs .ui-tabs-nav { margin: 0; padding: .2em .2em 0;}
+.ui-tabs .ui-tabs-nav li { list-style: none; float: left; position: relative; top: 1px; margin: 0 .2em 1px 0; border-bottom: 0 !important; padding: 0; white-space: nowrap; background-color: #ddd; border: 1px solid #ddd; }
+.ui-tabs .ui-tabs-nav li a { float: left; padding: .5em 1em; text-decoration: none; }
+.ui-tabs .ui-tabs-nav li.ui-tabs-selected { margin-bottom: 0; padding-bottom: 1px; background-color: #fff; }
+.ui-tabs .ui-tabs-nav li.ui-tabs-selected a, .ui-tabs .ui-tabs-nav li.ui-state-disabled a, .ui-tabs .ui-tabs-nav li.ui-state-processing a { cursor: text; }
+.ui-tabs .ui-tabs-nav li a, .ui-tabs.ui-tabs-collapsible .ui-tabs-nav li.ui-tabs-selected a { cursor: pointer; } /* first selector in group seems obsolete, but required to overcome bug in Opera applying cursor: text overall if defined elsewhere... */
+.ui-tabs .ui-tabs-panel { display: block; border-width: 0; padding: 1em 1.4em; background: none; border: 1px solid #ddd; margin-bottom: 10px; }
+.ui-tabs .ui-tabs-hide { display: none !important; }
+

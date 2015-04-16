@@ -1,0 +1,6 @@
+[13-Jul-2014 01:04:52 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') 
+		GROUP BY docid1' at line 3 for query SELECT docid1 AS id, COUNT(*) AS contains
+		FROM wp_tn3_relations 
+		WHERE docid1 IN() 
+		GROUP BY docid1; made by do_action('wp_ajax_tn3_admin'), call_user_func_array, TN3_Ajax->init, call_user_func, TN3_Ajax->do_images, TN3_DB->relate, TN3_DB->update_count
+[13-Jul-2014 01:04:52 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '0) ON DUPLICATE KEY UPDATE contains=VALUES(contains)' at line 1 for query INSERT INTO wp_tn3_documents (id,contains) VALUES (,0) ON DUPLICATE KEY UPDATE contains=VALUES(contains); made by do_action('wp_ajax_tn3_admin'), call_user_func_array, TN3_Ajax->init, call_user_func, TN3_Ajax->do_images, TN3_DB->relate, TN3_DB->update_count
