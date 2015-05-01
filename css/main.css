@@ -63,6 +63,35 @@ h1,h2,h3,h4,h5,h6{
 	background-image:url(../img/background.jpg);
 }
 
+.mbp {
+	height:261px;
+	width:485px;
+	background-image:url(../img/mbp_2x.png);
+	background-size: 100% 100%;
+}
+
+.screen {
+	width: 76.6%;
+	max-width: 372px;
+	max-height: 260px;
+	position: absolute;
+	top: 6%;
+	left: 11.8%;
+	display: block;
+	padding-top: 48%;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.sheep {
+	background-image:url(../img/Sheep.png);
+}
+
+.Project-name {
+	font-size:25px;
+	color: #60B741;
+}
+
 /* ==========================================================================
    Navigation
    ========================================================================== */

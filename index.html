@@ -32,41 +32,11 @@
         <link rel="stylesheet" href="css/animate.min.css">
         
         <!--TN3 files-->
-        <link type="text/css" rel="stylesheet" href="skins/tn3e/tn3e.css">
-        <link type="text/css" rel="stylesheet" href="skins/tn3t/tn3t.css">
         <script type="text/javascript" src="js/jquery-1.9.1.js"></script> 
         <script type="text/javascript" src="js/jquery.tn3.min.js"></script>
         <script type="text/javascript" src="js/tn3.touch.min.js"></script>
-        <script type="text/javascript">
-          $(document).ready(function() {
-            $('.tn3-gallery').tn3({
-				autoplay:false,
-                skinDir:"skins",
-                skin:"tn3e",
-				responsive:75,
-				startWithAlbums:true,
-				mouseWheel: false,
-                touch: {
-                    skin:"tn3t",
-                },
-                image:{
-                 random:true,
-                 transitions:[
-                 { 
-                 type:"fade",
-                 duration:250 
-                 }, 
-                 { 
-                 type:"slide",
-                 duration:200 
-                 },
-                 ]
-                }
-            });	  
-          });
-        </script>
         
-        <!--Google Analytics-->
+	<!--Google Analytics-->
         <script>
 		  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
 		  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -116,6 +86,7 @@
         </div><!--/.nav-collapse -->
       </div>
     </div>
+
     <!-- welcome begins -->
     <section id="page-welcome" class="page-welcome">
         <div class="container">
@@ -134,6 +105,7 @@
             </div>
         </div>
     </section><!-- welcome ends -->
+
     <!-- About Me begins -->
     <section id="page-about" class="page-about lighter wow animated bounce" data-wow-delay="2s" data-wow-duration="2s" data-wow-offset="-100">
       <div class="lighter margin"></div>
@@ -156,203 +128,28 @@
             </div>
       </div>
     </section><!-- About Me ends -->
+
     <!-- Fun and Projects begins -->
      <section id="page-fun" class="page-fun darker">
      	  <div class="darker margin"></div>
-          <div class="span12">
+          <div class="container">
             <div class="row centering">
                 <header class="section-header">
                     <h2 class="section-title wow animated fadeInUp"><span>Fun and Projects</span></h2>
-                      <div class="spacer wow animated fadeInUp"></div>
-                    <p class="section-subtitle wow animated fadeInUp">Hover over picture to change albums, enter fullscreen, or pause the slideshow. Swipe on mobile.</p>
+                    <div class="spacer wow animated fadeInUp"></div>
                 </header>
-                 
-                <div class="tn3-gallery wow animated fadeInUp" id="inline">
-                  <div class="tn3 album">
-                      <h4>Fun</h4>
-                      <div class="tn3 thumb">img/portfolio/thumbs/Blood Drive.JPG</div>
-                      <ul>
-                       <li>
-                        <h4>Bengal Bouts</h4>
-                        <div class="tn3 description">
-                        The Bengal Bouts Boxing Program is a five month journey for two hours per day. In addition to attending at least 80% of practices, all boxers must raise $500 for the Holy Cross Mission in Bangladesh in order to be eligible for the tournament.  Through this common goal, I was able to find a strong sense of camaraderie with my teammates despite the fact that I may have to face them in the ring.
-                        </div>
-                        <a href="img/portfolio/large/Bengal Bouts.PNG">
-                          <img src="img/portfolio/thumbs/Bengal Bouts.PNG" alt="Bengal Bouts Boxing Tournament First Year" />
-                        </a>
-                      </li>
-                      <li>
-                        <h4>Blood Drive Coordinator</h4>
-                        <div class="tn3 description">
-                        What began as an interesting Summer experiment has turned into one of my greatest passions. For something so simple, the impact is incredible. I hosted three drives this past Summer, and am planning to eventually host every two months.  As the host, I am responsible for finding a date and location, recruiting donors and volunteers for the drive, and overseeing the drive on the day of.
-                        </div>
-                        <a href="img/portfolio/large/Blood Drive.JPG">
-                          <img src="img/portfolio/thumbs/Blood Drive.JPG" alt="David Mattia and Brianna Kozemzak's Summer Blood Drive"/>
-                        </a>
-                      </li>
-                      <li>
-                        <h4>Muscular Dystrophy Camp Counselor</h4>
-                        <div class="tn3 description">
-                        With no experience with muscular dystrophy, I was nervous before my first year of camp. Now, I cannot wait for the "Best Week of the Year" to come around next year.  Addison is not just the camper I take care of, but one of my best friends. He is physically disabled, but is an incredibly kind and smart teenager with full mental capabilities.  I hope to help Addison and the Muscular Dystrophy Association for as long as I can.
-                        </div>
-                        <a href="img/portfolio/large/MDA Camp Year 2.jpg">
-                          <img src="img/portfolio/thumbs/MDA Camp Year 2.jpg" alt="Muscular Dystrophy Camp picture of David Mattia and Addison Xiong"/>
-                        </a>
-                      </li>
-                      <li>
-                        <h4>Soccer</h4>
-                        <div class="tn3 description">
-                        Nothing relaxes me like juggling a soccer ball.  I love all aspects of the game, from playing to watching to refereeing to coaching. I volunteered as a soccer trainer for Lakeville South Soccer Club for five months working with kids aged four to thirteen and loved being able to share my passion and experience with them. I hope to eventually be able to coach in my free time.
-                        </div>
-                        <a href="img/portfolio/large/Soccer.jpg">
-                          <img src="img/portfolio/thumbs/Soccer.jpg" alt="Soccer for Lakeville South High School Varsity"/>
-                        </a>
-                      </li>
-                      <li>
-                        <h4>Raspberry Pi</h4>
-                        <div class="tn3 description">
-                        The technology behind this miniature computer amazes me. Through setting it up, I learned about computer architecture, Linux operating systems, and Python. The Raspberry Pi started my interest in how computers work, and I am currently sharing my discoveries with others.  This Summer I was able to help my younger cousin set up their own Pi and learn to code basic python. 
-                        </div>
-                        <a href="img/portfolio/large/Raspberry Pi.JPG">
-                          <img src="img/portfolio/thumbs/Raspberry Pi.JPG" alt="Raspberry Pi"/>
-                        </a>
-                      </li>
-                      <li>
-                          <h4>Olympic Weightlifting</h4>
-                          <div class="tn3 description">
-                          Olympic Weightlifting is the most addicting sport I have ever tried.  I fail lifts every day, and consistently have to refocus and try again.  There is no lying to a bar: you either get the lift or you haven't put in enough work yet.  The combination of mental toughness, heart, skill, and strength necessary to succeed means every day is a challenge. And one I look forward to accepting.
-                          </div>		0
-                          <a href="img/portfolio/large/Hang Snatch.jpg">
-                          <img src="img/portfolio/thumbs/hang_snatch_poster.jpg" alt="David Mattia 70kg Snatch"/>
-                          </a>
-                      </li>
-                      <li>
-                        <h4>Web Design</h4>
-                        <div class="tn3 description">
-                        Web design allows me to showcase two of my greatest passions: coding and graphic design.  It has allowed me to meet and work with local business owners and collaborate on design schemes until I could make them a website they would be proud to use.  Although I am not interested in doing web design as a career, I will continue to design sites as a hobby.
-                        </div>
-                        <a href="img/portfolio/large/Web Design.jpg">
-                          <img src="img/portfolio/thumbs/Web Design.jpg" alt="Infinitec Logo"/>
-                        </a>
-                      </li>
-                      </ul>
-                  </div><!--Album-->
-                  <div class="tn3 album">
-                  <h4>Projects</h4>
-                      <div class="tn3 thumb">img/portfolio/thumbs/Raspberry Pi.JPG</div>
-                      <ul>
-                       <li>
-                        <h4>Raspberry Pi</h4>
-                        <div class="tn3 description">
-                        The technology behind this miniature computer amazes me. Through setting it up, I learned about computer architecture, Linux operating systems, and Python. The Raspberry Pi started my interest in how computers work, and I am currently sharing my discoveries with others.  This Summer I was able to help my younger cousin set up their own Pi and learn to code basic python. 
-                        </div>
-                        <a href="img/portfolio/large/Raspberry Pi.JPG">
-                          <img src="img/portfolio/thumbs/Raspberry Pi.JPG" alt="Raspberry Pi"/>
-                        </a>
-                      </li>
-                      <li>
-                        <h4>Lego NXT</h4>
-                        <div class="tn3 description">
-                        A project for my Intro to Engineering course, I created this Pet with a group of three others.  My jobs included the physical construction, creation of a plan to keep us on track, creating the code to allow the Pet to waddle around without bumping into anything, and general debugging when issues arose.  Our Pet could avoid walls, change into a sliding mode, dance to music, play a number game, and go to sleep.
-                        </div>
-                        <a href="img/portfolio/large/Lego NXT.jpg">
-                          <img src="img/portfolio/thumbs/Lego NXT.jpg" alt="Lego NXT Penguin created using LabView Software"/>
-                        </a>
-                      </li>
-                      <li>
-                        <h4>Web Design</h4>
-                        <div class="tn3 description">
-                        Web design allows me to showcase two of my greatest passions: coding and graphic design.  It has allowed me to meet and work with local business owners and collaborate on design schemes until I could make them a website they would be proud to use.  Although I am not interested in doing web design as a career, I will continue to design sites as a hobby.
-                        </div>
-                        <a href="img/portfolio/large/Web Design.jpg">
-                          <img src="img/portfolio/thumbs/Web Design.jpg" alt="Infinitec Logo"/>
-                        </a>
-                      </li>
-                      <li>
-                        <h4>Iris Research</h4>
-                        <div class="tn3 description">
-                        I spent the second semester my freshman year working with Professors Bowyer and Flynn on their iris aging research.  They focus on biometrics and how face recognition software needs to adapt to iris changes over time.  My job was researching a new paper that suggested that the iris may not age at all, as well as other recent advancements from sources around the world.
-                        </div>
-                        <a href="img/portfolio/large/Iris Research.jpg">
-                          <img src="img/portfolio/thumbs/Iris Research.jpg" alt="Iris Research"/>
-                        </a>
-                      </li>
-                      <li>
-                        <h4>Sudoku Algorithm Comparison Project</h4>
-                        <div class="tn3 description">
-                        As a part of my Intro to Engineering course, I was asked to create a fairly open project of my own choosing using MATLAB.  I ended up creating three Sudoku algorithms to test against each other.  I also needed to make an algorithm to create puzzles with only one solution and a GUI (shown above) that allowed the user to easily view my results.
-                        </div>
-                        <a href="img/portfolio/large/Sudoku.PNG">
-                          <img src="img/portfolio/thumbs/Sudoku.png" alt="Iris Research"/>
-                        </a>
-                      </li>
-                      </ul>
-                  </div>
-                  <div class="tn3 album">
-                  <h4>Volunteering</h4>
-                      <div class="tn3 thumb">img/portfolio/thumbs/MDA Camp Year 2.jpg</div>
-                      <ul>
-                       <li>
-                        <h4>Bengal Bouts</h4>
-                        <div class="tn3 description">
-                        The Bengal Bouts Boxing Program is a five month journey for two hours per day. In addition to attending at least 80% of practices, all boxers must raise $500 for the Holy Cross Mission in Bangladesh in order to be eligible for the tournament.  Through this common goal, I was able to find a strong sense of camaraderie with my teammates despite the fact that I may have to face them in the ring.
-                        </div>
-                        <a href="img/portfolio/large/Bengal Bouts.PNG">
-                          <img src="img/portfolio/thumbs/Bengal Bouts.PNG" alt="Bengal Bouts Boxing Tournament First Year" />
-                        </a>
-                      </li>
-                      <li>
-                        <h4>Blood Drive Coordinator</h4>
-                        <div class="tn3 description">
-                        What began as an interesting Summer experiment has turned into one of my greatest passions. For something so simple, the impact is incredible. I hosted three drives this past Summer, and am planning to eventually host every two months.  As the host, I am responsible for finding a date and location, recruiting donors and volunteers for the drive, and overseeing the drive on the day of.
-                        </div>
-                        <a href="img/portfolio/large/Blood Drive.JPG">
-                          <img src="img/portfolio/thumbs/Blood Drive.JPG" alt="David Mattia and Brianna Kozemzak's Summer Blood Drive"/>
-                        </a>
-                      </li>
-                      <li>
-                        <h4>Muscular Dystrophy Camp Counselor</h4>
-                        <div class="tn3 description">
-                        With no experience with muscular dystrophy, I was nervous before my first year of camp. Now, I cannot wait for the "Best Week of the Year" to come around next year.  Addison is not just the camper I take care of, but one of my best friends. He is physically disabled, but is an incredibly kind and smart teenager with full mental capabilities.  I hope to help Addison and the Muscular Dystrophy Association for as long as I can.
-                        </div>
-                        <a href="img/portfolio/large/MDA Camp Year 2.jpg">
-                          <img src="img/portfolio/thumbs/MDA Camp Year 2.jpg" alt="Muscular Dystrophy Camp picture of David Mattia and Addison Xiong"/>
-                        </a>
-                      </li>
-                      <li>
-                        <h4>Empty Bowls</h4>
-                        <div class="tn3 description">
-                        This was a fundraising event for eliminating hunger in my local community.  The Eagan Art House donated bowls they created, and we sold them along with a free meal in the bowls.  The event was a simple and effective way to directly better my community.
-                        </div>
-                        <a href="img/portfolio/large/Empty Bowls.JPG">
-                          <img src="img/portfolio/thumbs/Empty Bowls.jpg" alt="Empty Bowls volunteers David Mattia, Brianna Kozemzak, and Jane Kozemzak"/>
-                        </a>
-                      </li>
-                      <li>
-                        <h4>Feed My Starving Children Mobile Event Leader</h4>
-                        <div class="tn3 description">
-                         My high school became the first in Minnesota to ever host a FMSC Mobile Pack event my Junior Year.  It took $15,000 of fundraising to have the event, so that was our major obstacle.  I helped fundraise by emceeing a fashion show, and also helped out with recruitment and day of activities.  It proved a great success, and we were even more successful with a $24,000 event my senior year.
-                        </div>
-                        <a href="img/portfolio/large/fmsc.jpg">
-                          <img src="img/portfolio/thumbs/fmsc.jpg" alt="Feed My Starving Children mobile event at Lakeville South High School"/>
-                        </a>
-                      </li>
-                      <li>
-                        <h4>Bald and Beautiful</h4>
-                        <div class="tn3 description">
-                        The Bald & The Beautiful is the largest student-run philanthropy event at Notre Dame. It is a fundraiser for two different hospitals focusing on pediatric cancer.  I had never been bald before, but I was able to raise $50 for the cause if I did shave my head.  I was nervous at the time, but will continue shaving each year until graduation.
-                        </div>
-                        <a href="img/portfolio/large/Bald and Beautiful.JPG">
-                          <img src="img/portfolio/thumbs/Bald and Beautiful.JPG" alt="David Mattia with a shaved head"/>
-                        </a>
-                      </li>
-                      </ul>
-                  </div>
-                </div><!--gallery-->	
-                
             </div>
+	    <div class="row centering" style="margin-top:40px; margin-bottom:40px;">
+		<div class="col-md-6 mbp">
+			<div class="screen sheep"></div>
+		</div>
+		<div class="col-md-6">
+			<a href="https://github.com/bengunning/comp2final" class="Project-name">Sheep Herder</a>	
+		</div>
+	    </div>
         </div>
     </section><!-- Fun and Projects ends -->
+
     <!-- Resume begins -->
      <section id="page-resume" class="page-resume lighter">
        <div class="margin lighter"></div>
