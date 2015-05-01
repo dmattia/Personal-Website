@@ -64,7 +64,8 @@ h1,h2,h3,h4,h5,h6{
 }
 
 .mbp {
-	height:261px;
+	margin: 0 auto;
+	height:265px;
 	width:485px;
 	background-image:url(../img/mbp_2x.png);
 	background-size: 100% 100%;
@@ -87,9 +88,16 @@ h1,h2,h3,h4,h5,h6{
 	background-image:url(../img/Sheep.png);
 }
 
+.math {
+	background-image:url(../img/math.jgp);
+}
+
 .Project-name {
-	font-size:25px;
-	color: #60B741;
+	color: #3498db;
+}
+
+.project-description {
+	font-size: 20px;
 }
 
 /* ==========================================================================
@@ -429,6 +437,10 @@ background-color: transparent;
     margin: auto;
 }
 
+.wide-spacer {
+    width: 900px;
+}
+
 .section-subtitle {
     text-align: center;
     padding:30px 0;
@@ -635,6 +647,10 @@ label.valid{
     margin:0 auto 20px auto;
   }
 
+  .wide-spacer {
+    width: 600px;
+  }
+
 
 }
 
@@ -642,6 +658,23 @@ label.valid{
     
     #page-welcome header h1 {
         font-size: 2em;
+    }
+
+    .first {
+	
+    }
+
+    .second {
+
+    }
+
+    .mbp {
+	height: 161px;
+        width: 300px;
+    }
+  
+    .wide-spacer {
+      width: 300px;
     }
 
     #page-welcome header p {
@@ -667,10 +700,7 @@ label.valid{
 
         #page-profile .profile{
    		    margin:0 auto 20px auto;
-  		}
-  
-   
-
+  	}
 }
 
 
