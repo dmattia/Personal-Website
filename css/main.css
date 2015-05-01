@@ -99,7 +99,7 @@ h1,h2,h3,h4,h5,h6{
 .foober {
 	top:11%;
 	background-size: 100% 92%;
-	background-image:url(../img/Sheep.png);
+	background-image:url(../img/Foober.png);
 }
 
 .math {
@@ -610,24 +610,16 @@ label.valid{
     color:#2BA9E0;
 }
 
+.btn-github:hover{
+    color:#000000;
+}
+
 .btn-facebook:hover{
     color:#204385;
 }
 
-.btn-dribbble:hover{
-    color:#D92C85;
-}
-
-.btn-instagram:hover{
-    color:#BAB1A8;
-}
-
 .btn-linkedin:hover{
     color:#015786;
-}
-
-.btn-pinterest:hover{
-    color:#CA2128;
 }
 
 .btn-google:hover{
