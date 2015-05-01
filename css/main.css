@@ -71,6 +71,14 @@ h1,h2,h3,h4,h5,h6{
 	background-size: 100% 100%;
 }
 
+.nexus {
+	margin: 0 auto;
+	height:265px;
+	width:485px;
+	background-image:url(../img/nexus.png);
+	background-size: 100% 100%;
+}
+
 .screen {
 	width: 76.6%;
 	max-width: 372px;
@@ -85,6 +93,12 @@ h1,h2,h3,h4,h5,h6{
 }
 
 .sheep {
+	background-image:url(../img/Sheep.png);
+}
+
+.foober {
+	top:11%;
+	background-size: 100% 92%;
 	background-image:url(../img/Sheep.png);
 }
 
@@ -660,19 +674,20 @@ label.valid{
         font-size: 2em;
     }
 
-    .first {
-	
-    }
-
-    .second {
-
+    .nexus {
+	height: 166px; 
+	width: 300px;
     }
 
     .mbp {
 	height: 161px;
         width: 300px;
     }
-  
+ 
+    .foober {
+        background-size: 100% 97%;
+    }
+ 
     .wide-spacer {
       width: 300px;
     }
