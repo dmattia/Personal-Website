@@ -106,6 +106,10 @@ h1,h2,h3,h4,h5,h6{
 	background-image:url(../img/math.png);
 }
 
+.chiellini {
+	background-image:url(../img/Pacman.png);
+}
+
 .Project-name {
 	color: #3498db;
 }
