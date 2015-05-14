@@ -83,6 +83,14 @@ h1,h2,h3,h4,h5,h6{
 	background-size: 100% 100%;
 }
 
+.pebble {
+	margin: 0 auto;
+	height:385px;
+	width:255px;
+	background-image:url(../img/pebble.png);
+	background-size: 100% 100%;
+}
+
 .screen {
 	width: 76.6%;
 	max-width: 372px;
@@ -104,6 +112,13 @@ h1,h2,h3,h4,h5,h6{
 	top:11%;
 	background-size: 100% 92%;
 	background-image:url(../img/Foober.png);
+}
+
+.ge-watchface {
+	top:26%;
+	left:30%;
+	background-size: 50% 85%;
+	background-image: url(../img/ge_screenshot.png);
 }
 
 .math {
@@ -665,6 +680,10 @@ label.valid{
     width: 600px;
   }
 
+  .ge-watchface {
+      left: 37.5%;
+      background-size: 43% 52%;
+  }
 
 }
 
@@ -684,6 +703,11 @@ label.valid{
         width: 300px;
     }
  
+    .ge-watchface {
+	left:30%;
+        background-size: 52% 89%;
+    }
+
     .foober {
         background-size: 100% 97%;
     }
