@@ -86,8 +86,8 @@ h1,h2,h3,h4,h5,h6{
 .pebble {
 	margin: 0 auto;
 	height:385px;
-	width:255px;
-	background-image:url(../img/pebble.png);
+	width:485px;
+	background-image:url(../img/pebble2.png);
 	background-size: 100% 100%;
 }
 
@@ -116,8 +116,8 @@ h1,h2,h3,h4,h5,h6{
 
 .ge-watchface {
 	top:26%;
-	left:30%;
-	background-size: 50% 85%;
+	left: 32%;
+	background-size: 47% 70%;
 	background-image: url(../img/ge_screenshot.png);
 }
 
@@ -680,11 +680,6 @@ label.valid{
     width: 600px;
   }
 
-  .ge-watchface {
-      left: 37.5%;
-      background-size: 43% 52%;
-  }
-
 }
 
 @media  (max-width: 479px) {
@@ -703,9 +698,9 @@ label.valid{
         width: 300px;
     }
  
-    .ge-watchface {
-	left:30%;
-        background-size: 52% 89%;
+    .pebble {
+        height: 238px;
+	width: 300px;
     }
 
     .foober {
