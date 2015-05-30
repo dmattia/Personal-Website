@@ -125,6 +125,10 @@ h1,h2,h3,h4,h5,h6{
 	background-image:url(../img/math.png);
 }
 
+.mac-startup {
+	background-image:url(../img/mac_background.jpg);
+}
+
 .chiellini {
 	background-image:url(../img/Pacman.png);
 }
