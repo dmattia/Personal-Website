@@ -188,6 +188,8 @@ background-color: transparent;
     position: relative;
     overflow: hidden;
     text-align: center;
+    background-image:url(../img/slider/02.jpg);
+    background-position:center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;

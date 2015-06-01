@@ -58,16 +58,6 @@ $('.chart').waypoint(function() {
   offset: 'bottom-in-view'
 });
 
-
-/* VEGAS Home Slider */
-	
-		$.vegas('slideshow', {
-			  backgrounds:[
-				{ src:'img/slider/02.jpg' }
-			  ]
-		});
-
-
 /*Contact form */
       $('#contact-form').validate({
         rules: {
