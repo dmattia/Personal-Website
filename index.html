@@ -135,7 +135,7 @@
 	    <div class="row" style="margin-top:40px; margin-bottom:40px;">
 		<div class="col-md-6 mbp">
 			<div class="screen mac-startup wow animated fadeIn" data-wow-delay="1s" data-wow-duration="1s"></div>
-			<div class="screen sheep wow animated fadeIn" data-wow-delay="3s" data-wow-duration="1s"></div>
+			<div class="screen sheep wow animated fadeIn" alt="Sheep.png" data-wow-delay="3s" data-wow-duration="1s"></div>
 		</div>
 		<div class="col-md-6">
 			<h2 class="Project-name">Sheep Herder</h2>	
@@ -148,7 +148,7 @@
 
 	    <div class="row" style="margin-top:40px; margin-bottom:40px;">
 		<div class="col-md-6 col-lg-push-6 mbp">
-			<div class="screen math"></div>
+			<div class="screen math" alt="math.png"></div>
 		</div>
 		<div class="col-md-6 col-lg-pull-5">
 			<h2 class="Project-name">MathFeud</h2>	
@@ -161,7 +161,7 @@
 
 	    <div class="row" style="margin-top:40px; margin-bottom:40px;">
                 <div class="col-md-6 nexus">
-                        <div class="screen foober"></div>
+                        <div class="screen foober" alt="Foober.png"></div>
                 </div>
                 <div class="col-md-6">
                         <h2 class="Project-name">Foober</h2>
@@ -174,7 +174,7 @@
 	    
 	    <div class="row" style="margin-top:40px; margin-bottom:40px;">
 		<div class="col-md-6 col-lg-push-6 mbp">
-			<div class="screen chiellini"></div>
+			<div class="screen chiellini" alt="Pacman.png"></div>
 		</div>
 		<div class="col-md-6 col-lg-pull-5">
 			<h2 class="Project-name">Chiellini</h2>	
@@ -187,7 +187,7 @@
 
 	    <div class="row" style="margin-top:40px; margin-bottom:40px;">
                 <div class="col-md-6 pebble">
-                       <div class="screen ge-watchface"></div>
+                       <div class="screen ge-watchface" alt="ge_screenshot.png"></div>
                 </div>
                 <div class="col-md-6">
                         <h2 class="Project-name">Pebble Watchfaces</h2>
@@ -291,11 +291,14 @@
         <script>
 		new WOW().init();
 		$(document).ready(function() {
-			$('.sheep').magnificPopup( {
-				type: 'image',
-				items: {
-					src: '../img/Sheep.png'
-				}
+			$('.screen').click(function() {
+				console.log(this.getAttribute('alt'));
+				$.magnificPopup.open({
+					type: 'image',
+					items: {
+						src: "../img/" + this.getAttribute('alt')
+					}
+				});
 			});
 		});
 	</script>
