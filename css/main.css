@@ -128,6 +128,12 @@ h1,h2,h3,h4,h5,h6{
 	background-image:url(../img/mac_startup.jpg);
 }
 
+.android-startup {
+	top: 10%;
+	background-size: 100% 93%;
+	background-image:url(../img/android-startup.gif);
+}
+
 .chiellini {
 	background-image:url(../img/Pacman.png);
 }
