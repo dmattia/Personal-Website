@@ -146,6 +146,19 @@ h1,h2,h3,h4,h5,h6{
 	font-size: 20px;
 }
 
+#me {
+	filter:grayscale(0%);
+	-webkit-filter:grayscale(0%);
+	border-radius:20%;
+	-webkit-transition:all 1s ease;
+}
+
+#me:hover {
+	border-radius:50%;
+	filter:grayscale(100%);
+	-webkit-filter:grayscale(100%);
+}
+
 /* ==========================================================================
    Navigation
    ========================================================================== */
