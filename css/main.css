@@ -6,12 +6,19 @@
     padding: 0 15px;
 }
 
+#clickable {
+    pointer-events: auto;
+}
+
 .home-container {
     position: absolute;
     left: 50%;
     transform:translate(-50%,0%);
     -ms-transform:translate(-50%,0%);
     -webkit-transform:translate(-50%,0%);
+    pointer-events: none;
+    padding-left: 5px;
+    padding-right: 5px;
 }
 
 html, body {
@@ -107,7 +114,7 @@ h1,h2,h3,h4,h5,h6{
 	background-repeat: no-repeat;
 }
 
-.screen:hover {
+.screen:hover{
 	opacity: 0.5;
 }
 
@@ -214,15 +221,7 @@ background-color: transparent;
     position: relative;
     overflow: hidden;
     text-align: center;
-    background-image:url(../img/slider/02.jpg);
-    background-position:center center;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
 }
-
-
 
 .page-welcome header{
     color:#fff;
