@@ -3,7 +3,7 @@ RewriteBase /
 RewriteCond %{HTTP_HOST} ^www\.(.*)$ [NC]
 RewriteRule ^(.*)$ http://%1/$1 [R=301,L]
 
-ErrorDocument 404 /404.shtml
+ErrorDocument 404 /404.html
 
 <IfModule mod_expires.c>
 ExpiresActive On
