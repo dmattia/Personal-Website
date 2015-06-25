@@ -200,7 +200,7 @@ background-color: transparent;
   Layout 
    ========================================================================== */
 
-#page-welcome{
+.page-welcome{
     width: 100%;
     height: 90%;
     position: relative;
@@ -216,13 +216,13 @@ background-color: transparent;
 
 
 
-#page-welcome header{
+.page-welcome header{
     color:#fff;
     padding-top:20%;
 
 }
 
-#page-welcome header h1{
+.page-welcome header h1{
     margin: 0;
     padding: 0;
     font-size: 4.5em;
@@ -232,7 +232,7 @@ background-color: transparent;
    text-transform: uppercase;
 }
 
-#page-welcome header p{
+.page-welcome header p{
     font-size: 2em;
     display: inline-block;
     margin-bottom: 5px;
@@ -442,7 +442,7 @@ background-color: transparent;
     list-style: none;
 }
 
-#page-welcome:hover .slider-controls{
+.page-welcome:hover .slider-controls{
     opacity: 1;
     -webkit-transition: all 0.4s ease-in-out;
     -moz-transition: all 0.4s ease-in-out;
@@ -708,7 +708,7 @@ label.valid{
 
 @media  (max-width: 479px) {
     
-    #page-welcome header h1 {
+    .page-welcome header h1 {
         font-size: 2em;
     }
 
@@ -735,7 +735,7 @@ label.valid{
       width: 300px;
     }
 
-    #page-welcome header p {
+    .page-welcome header p {
         font-size: 1em;
        line-height: 3em;
     }
