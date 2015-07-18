@@ -31,6 +31,8 @@
         <!-- Fonts -->
         <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,900,300italic,400italic,600italic,700italic,900italic' rel='stylesheet' type='text/css'>
         <link href='http://fonts.googleapis.com/css?family=Oxygen:400,700' rel='stylesheet' type='text/css'>
+        <!-- Spectrum Color Picker -->
+        <link rel="stylesheet" href="css/spectrum.css">
 
 	<!--Google Analytics-->
         <script>
@@ -74,6 +76,9 @@
             <li><a href="#page-resume">Resume</a></li>
             <li><a href="#page-contact">Contact</a></li>
           </ul>
+	  <ul id="color-picker" class="nav navbar-nav pull-right">
+	    <li style="position:relative;margin-top:50%;transform:translateY(-50%);"><input type="text" id="flat"</li>
+	  </ul>
         </div><!--/.nav-collapse -->
       </div>
     </div>
@@ -98,23 +103,23 @@
     </section><!-- welcome ends -->
 
     <!-- About Me begins -->
-    <section id="page-about" class="page-about lighter wow animated bounce" data-wow-delay="1s" data-wow-duration="2s" data-wow-offset="-100">
+    <section id="page-about" class="page-about lighter wow bounce" data-wow-delay="1s" data-wow-duration="2s" data-wow-offset="-100">
       <div class="lighter margin"></div>
       <div class="container">
                 <header class="section-header">
-                    <h2 class="section-title wow animated fadeInUp">About Me</h2>
-                    <div class="spacer wow animated fadeInUp"></div>
-                    <p class="section-subtitle wow animated fadeInUp" itemscope itemtype="http://data-vocabulary.org/Person">Hello, my name is <span itemprop="name">David Mattia</span> and I am a <span itemprop="title">Computer Science Major</span> at the <span itemprop="affiliation">University of Notre Dame</span>. My two main interests are big data and systems computing (especially if they are used in some sort of social work or medicine), but I enjoy dabbling with every aspect of computer science.  I am currently an intern at General Electric and am creating algorithms to detect potential engine issues before they become real problems.  Let me know if you want to chat!</p>
+                    <h2 class="section-title wow fadeInUp">About Me</h2>
+                    <div class="spacer wow fadeInUp"></div>
+                    <p class="section-subtitle wow fadeInUp" itemscope itemtype="http://data-vocabulary.org/Person">Hello, my name is <span itemprop="name">David Mattia</span> and I am a <span itemprop="title">Computer Science Major</span> at the <span itemprop="affiliation">University of Notre Dame</span>. My two main interests are big data and systems computing (especially if they are used in some sort of social work or medicine), but I enjoy dabbling with every aspect of computer science.  I am currently an intern at General Electric and am creating algorithms to detect potential engine issues before they become real problems.  Let me know if you want to chat!</p>
                 </header>
             <div class="row" style="margin-bottom: 40px;">
               <div class="col-md-3">
-                 <div class="profile wow animated fadeInLeft"><img id="me" src="img/David_mattia.jpg" alt="David Mattia Professional Photo"/></div> 
+                 <div class="profile wow fadeInLeft"><img id="me" src="img/David_mattia.jpg" alt="David Mattia Professional Photo"/></div> 
               </div>
                <div class="col-md-9">
-               	<h2 class="wow animated fadeInRight">I am a <strong class="blue">Community Leader</strong></h2>
-                <p class="small-text wow animated fadeInRight">I look to find simple ways to help out those around me.  I have found my calling as a blood drive coordinator for the American Red Cross and love how easy it is to make a large impact.  I have hosted over eight drives and am now broadening my focus to work with military and veteran relief through the Red Cross. I also love working with disability networks.  I have been a camp counselor for the Muscular Dystrophy Association for two years and am the web master for the GE Disabilities Network.  If you know of any events I can help with, please let me know and I'll be glad to help.</p>
-                <h2 class="wow animated fadeInRight"><strong class="blue">Community Member</strong></h2>
-               	<p class="small-text wow animated fadeInRight">I am blessed with opportunity at Notre Dame, and am trying to make the most out of it.  I belong to the large community of Notre Dame, but also to smaller groups such as being a member of Stanford Hall, the Computer Science and Engineering Department, the American Red Cross Club, the Bengal Bouts Boxing Program, the 1 E/W football team, and many others. In each group, I strive to build up those around me.  I have always been taught that a true leader does not need a leadership position, but can strengthen a system from anywhere in an organization. I look to be a good member by personally working as hard as I can, encouraging others, asking questions when I am not sure the best way forward, and maintaining a positive attitude.</p>
+               	<h2 class="wow fadeInRight">I am a <strong class="blue">Community Leader</strong></h2>
+                <p class="small-text wow fadeInRight">I look to find simple ways to help out those around me.  I have found my calling as a blood drive coordinator for the American Red Cross and love how easy it is to make a large impact.  I have hosted over eight drives and am now broadening my focus to work with military and veteran relief through the Red Cross. I also love working with disability networks.  I have been a camp counselor for the Muscular Dystrophy Association for two years and am the web master for the GE Disabilities Network.  If you know of any events I can help with, please let me know and I'll be glad to help.</p>
+                <h2 class="wow fadeInRight"><strong class="blue">Community Member</strong></h2>
+               	<p class="small-text wow fadeInRight">I am blessed with opportunity at Notre Dame, and am trying to make the most out of it.  I belong to the large community of Notre Dame, but also to smaller groups such as being a member of Stanford Hall, the Computer Science and Engineering Department, the American Red Cross Club, the Bengal Bouts Boxing Program, the 1 E/W football team, and many others. In each group, I strive to build up those around me.  I have always been taught that a true leader does not need a leadership position, but can strengthen a system from anywhere in an organization. I look to be a good member by personally working as hard as I can, encouraging others, asking questions when I am not sure the best way forward, and maintaining a positive attitude.</p>
               </div>
             </div>
       </div>
@@ -126,16 +131,16 @@
           <div class="container">
             <div class="row centering">
                 <header class="section-header">
-                    <h2 class="section-title wow animated fadeInUp"><span>Projects</span></h2>
-                    <div class="spacer wow animated fadeInUp"></div>
+                    <h2 class="section-title wow fadeInUp"><span>Projects</span></h2>
+                    <div class="spacer wow fadeInUp"></div>
                 </header>
             </div>
 
 	    <!-- Start Sheep Herder -->
 	    <div class="row" style="margin-top:40px; margin-bottom:40px;">
 		<div class="col-md-6 mbp">
-			<div class="screen mac-startup wow animated fadeIn" data-wow-delay="1s" data-wow-duration="1s"></div>
-			<div class="screen sheep wow animated fadeIn" data-type="image" data-source="../img/Sheep.png" data-wow-delay="3s" data-wow-duration="1s"></div>
+			<div class="screen mac-startup wow fadeIn" data-wow-delay="1s" data-wow-duration="1s"></div>
+			<div class="screen sheep wow fadeIn" data-type="image" data-source="../img/Sheep.png" data-wow-delay="3s" data-wow-duration="1s"></div>
 		</div>
 		<div class="col-md-6">
 			<h2 class="Project-name">Sheep Herder</h2>	
@@ -149,7 +154,7 @@
 	    <!-- Start Mathfeud -->
 	    <div class="row" style="margin-top:40px; margin-bottom:40px;">
 		<div class="col-md-6 col-lg-push-6 mbp">
-			<div class="screen mac-startup wow animated fadeIn" data-wow-delay="1s" data-wow-duration="1s"></div>
+			<div class="screen mac-startup wow fadeIn" data-wow-delay="1s" data-wow-duration="1s"></div>
 			<div class="screen math wow fadeIn" data-type="image" data-source="../img/math.png" data-wow-delay="3s" data-wow-duration="1s"></div>
 		</div>
 		<div class="col-md-6 col-lg-pull-5">
@@ -164,8 +169,8 @@
 	    <!-- Start Foober -->
 	    <div class="row" style="margin-top:40px; margin-bottom:40px;">
                 <div class="col-md-6 nexus">
-			<div class="screen android-startup wow animated fadeIn" data-wow-delay="1s" data-wow-duration="1s"></div>
-                        <div class="screen foober wow animated fadeIn" data-wow-delay="3s" data-wow-duration="1s" data-type="image" data-source="../img/Foober.png"></div>
+			<div class="screen android-startup wow fadeIn" data-wow-delay="1s" data-wow-duration="1s"></div>
+                        <div class="screen foober wow fadeIn" data-wow-delay="3s" data-wow-duration="1s" data-type="image" data-source="../img/Foober.png"></div>
                 </div>
                 <div class="col-md-6">
                         <h2 class="Project-name">Foober</h2>
@@ -179,8 +184,8 @@
 	    <!-- Start Chiellini -->
 	    <div class="row" style="margin-top:40px; margin-bottom:40px;">
 		<div class="col-md-6 col-lg-push-6 mbp">
-			<div class="screen mac-startup wow animated fadeIn" data-wow-delay="1s" data-wow-duration="1s"></div>
-			<div class="screen chiellini wow animated fadeIn" data-wow-delay="3s" data-wow-duration="1s" data-type="iframe" data-source="www.youtube.com/watch?v=xKPRTjCqYnI"></div>
+			<div class="screen mac-startup wow fadeIn" data-wow-delay="1s" data-wow-duration="1s"></div>
+			<div class="screen chiellini wow fadeIn" data-wow-delay="3s" data-wow-duration="1s" data-type="iframe" data-source="www.youtube.com/watch?v=xKPRTjCqYnI"></div>
 		</div>
 		<div class="col-md-6 col-lg-pull-5">
 			<h2 class="Project-name">Chiellini</h2>	
@@ -210,15 +215,15 @@
        <div class="margin lighter"></div>
        <div class="container">
                 <header class="section-header">
-                    <h2 class="section-title wow animated fadeInUp"><span>Resume</span></h2>
-                     <div class="spacer wow animated fadeInUp"></div>
-                    <p class="section-subtitle wow animated fadeInUp">View or Download my Updated Resume</p>
+                    <h2 class="section-title wow fadeInUp"><span>Resume</span></h2>
+                     <div class="spacer wow fadeInUp"></div>
+                    <p class="section-subtitle wow fadeInUp">View or Download my Updated Resume</p>
                 </header>
                 <div class="row">
                  <div class="col-md-6">
                   <article class="education">
                     <header>
-                      <h3 class="centering wow animated fadeInLeft"><a href="Resume.pdf" target="new">Click here to view resume</a></h3>
+                      <h3 class="centering wow fadeInLeft"><a href="Resume.pdf" target="new">Click here to view resume</a></h3>
                     </header>
                       <p><br><br><br></p>
                   </article>
@@ -226,7 +231,7 @@
                 <div class="col-md-6">
                 <article class="education">
                   <header>
-                    <h3 class="centering wow animated fadeInRight"><a href="Resume.pdf" download>Click here to download resume</a></h3>
+                    <h3 class="centering wow fadeInRight"><a href="Resume.pdf" download>Click here to download resume</a></h3>
                   </header>
                     <p><br><br><br></p>
                 </article>
@@ -238,11 +243,11 @@
      <section id="page-contact" class="page-contact">
           <div class="container">
               <header class="section-header">
-                  <h2 class="section-title wow animated fadeInUp"><span>Contact</span></h2>
-                    <div class="spacer wow animated fadeInUp"></div>
-                       <p class="section-subtitle wow animated fadeInUp">Questions or Concerns? Send me an email or message on LinkedIn</p>
+                  <h2 class="section-title wow fadeInUp"><span>Contact</span></h2>
+                    <div class="spacer wow fadeInUp"></div>
+                       <p class="section-subtitle wow fadeInUp">Questions or Concerns? Send me an email or message on LinkedIn</p>
               </header>
-        <div class="row wow animated fadeInLeft">
+        <div class="row wow fadeInLeft">
           <div class="col-sm-5 contact-info">
             <h3>Contact Info</h3>
             <p><i class="fa fa-map-marker"></i> David Mattia<br />University of Notre Dame<br />120 Stanford Hall<br />Notre Dame, IN 46556-5626 </p>
@@ -251,7 +256,7 @@
             <h2 class="small-text"><br />Website Created by David Mattia</h2>
           </div>
           
-          <div class="col-sm-7 wow animated fadeInRight">
+          <div class="col-sm-7 wow fadeInRight">
           <h3>Get in Touch</h3>
           <form  class="form-horizontal" id="contact-form" name='form' role='form' method='post' action='contactscript.php'>
             <div class="control-group">
@@ -296,7 +301,24 @@
         <script src="js/wow.js"></script>
         <script src="http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
         <script src="js/particles.js"></script>
+	<script src="js/spectrum.js"></script>
         <script>
+		$("#flat").spectrum({
+	 	    showPaletteOnly: true,
+		    showPalette: true,
+		    //color: "#3498DB",
+		    palette: [
+			'#3598DB','#F44336','#9C27B0',
+			'#009688','#4CAF50','#FF9800',
+			'#795548'
+		    ],
+		    change: function(color) {
+			blues = document.getElementsByClassName('blue');
+			for (var i = 0; i < blues.length; i++) {
+    			    blues[i].style.color=color.toHexString();
+    			}
+		    }
+		});
 		$(document).ready(function() {
 			new WOW().init();
 

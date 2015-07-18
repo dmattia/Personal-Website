@@ -83,6 +83,8 @@ h1,h2,h3,h4,h5,h6{
 	width:485px;
 	background-image:url(../img/mbp_2x.png);
 	background-size: 100% 100%;
+        -webkit-transform: rotateY(20deg);
+        animation-duration:2s;
 }
 
 .nexus {
@@ -133,6 +135,7 @@ h1,h2,h3,h4,h5,h6{
 	left: 32%;
 	background-size: 47% 70%;
 	background-image: url(../img/ge_screenshot.png);
+	overflow: hidden;
 }
 
 .math {
@@ -717,6 +720,10 @@ label.valid{
     
     .page-welcome header h1 {
         font-size: 2em;
+    }
+
+    #color-picker {
+	display: none;
     }
 
     .nexus {
