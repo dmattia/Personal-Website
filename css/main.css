@@ -10,17 +10,6 @@
     pointer-events: auto;
 }
 
-.home-container {
-    position: absolute;
-    left: 50%;
-    transform:translate(-50%,0%);
-    -ms-transform:translate(-50%,0%);
-    -webkit-transform:translate(-50%,0%);
-    pointer-events: none;
-    padding-left: 5px;
-    padding-right: 5px;
-}
-
 html, body {
     height: 100%;
     width: 100%;
@@ -83,8 +72,6 @@ h1,h2,h3,h4,h5,h6{
 	width:485px;
 	background-image:url(../img/mbp_2x.png);
 	background-size: 100% 100%;
-        -webkit-transform: rotateY(20deg);
-        animation-duration:2s;
 }
 
 .nexus {
@@ -222,6 +209,9 @@ background-color: transparent;
     text-align: center;
     background: url('../img/slider/02.jpg');
     background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
     background-position: 50% 50%;
     background-attachment: fixed;
 }
@@ -705,6 +695,10 @@ label.valid{
 
 
 @media(max-width:992px) {
+
+  .page-welcome {
+    background-attachment: initial;
+  }
 
   #page-profile .profile{
     margin:0 auto 20px auto;
