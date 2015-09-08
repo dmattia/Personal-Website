@@ -18,9 +18,7 @@
         <link rel="stylesheet" href="css/font-awesome.min.css">
         <!-- Magnific popup -->
         <link rel="stylesheet" href="css/magnific-popup.css">
-        <!-- Particles background sheet -->
-        <link rel="stylesheet" type="text/css" href="css/particles.css">
-        <!-- Custom styles for this template -->
+        <!-- Main CSS -->
         <link rel="stylesheet" href="css/main.css">
         <!--Favicon-->
         <link rel="icon" type="image/png" href="http://www.google.com/s2/favicons?domain=www.nd.edu">
@@ -70,11 +68,11 @@
         </div>
         <div class="navbar-collapse collapse">
           <ul class="nav navbar-nav" id="main-menu">
-            <li><a href="#page-welcome">Home</a></li>
-            <li><a href="#page-about">About</a></li>
-            <li><a href="#page-fun">Projects</a></li>
-            <li><a href="#page-resume">Resume</a></li>
-            <li><a href="#page-contact">Contact</a></li>
+            <li><a class="navbar-links" href="#page-welcome">Home</a></li>
+            <li><a class="navbar-links" href="#page-about">About</a></li>
+            <li><a class="navbar-links" href="#page-fun">Projects</a></li>
+            <li><a class="navbar-links" href="#page-resume">Resume</a></li>
+            <li><a class="navbar-links" href="#page-contact">Contact</a></li>
           </ul>
 	  <ul id="color-picker" class="nav navbar-nav pull-right">
 	    <li style="position:relative;margin-top:50%;transform:translateY(-50%);"><input type="text" id="flat"</li>
@@ -84,7 +82,7 @@
     </div>
 
     <!-- welcome begins -->
-    <section id="particles-js" class="page-welcome">
+    <section id="page-welcome" class="page-welcome">
         <div class="container home-container">
             <div class="row">
                 <header class="centering">
@@ -143,8 +141,8 @@
 			<div class="screen sheep wow fadeIn" data-type="image" data-source="../img/Sheep.png" data-wow-delay="3s" data-wow-duration="1s"></div>
 		</div>
 		<div class="col-md-6">
-			<h2 class="Project-name">Sheep Herder</h2>	
-			<a href="https://github.com/bengunning/comp2final">View on Github</a>
+			<h2 class="blue">Sheep Herder</h2>	
+			<a class="blue-link" href="https://github.com/bengunning/comp2final">View on Github</a>
 			<p class="project-description">For my final project sophomore year, I created a herd movement algorithm and simulation.  The simulation is comprised of multiple sheep trying to form a herd around a user specified point.  The sheep avoid each other and obstacles such as fences and stones to surround their goal.</p>
 		</div>
 	    </div>
@@ -158,8 +156,8 @@
 			<div class="screen math wow fadeIn" data-type="image" data-source="../img/math.png" data-wow-delay="3s" data-wow-duration="1s"></div>
 		</div>
 		<div class="col-md-6 col-lg-pull-5">
-			<h2 class="Project-name">MathFeud</h2>	
-			<a href="http://www.mathfeud.org/">View online</a>
+			<h2 class="blue">MathFeud</h2>	
+			<a class="blue-link" href="http://www.mathfeud.org/">View online</a>
 			<p class="project-description">I created this website alongside Professor Zhang for a research project.  The purpose of the project is to collect data on how 8th-9th grade math students process data while doing math problems. This project is a work in progress. The gitlab repo is private, so contact me to view source code.</p>
 		</div>
 	    </div>
@@ -173,8 +171,8 @@
                         <div class="screen foober wow fadeIn" data-wow-delay="3s" data-wow-duration="1s" data-type="image" data-source="../img/Foober.png"></div>
                 </div>
                 <div class="col-md-6">
-                        <h2 class="Project-name">Foober</h2>
-                        <a href="https://github.com/dmattia/Foober">View on Github</a>
+                        <h2 class="blue">Foober</h2>
+                        <a class="blue-link" ref="https://github.com/dmattia/Foober">View on Github</a>
                         <p class="project-description">Created at IrishHacks, this native android app connects Notre Dame students who are looking to deliver/buy food.  Deliverers could charge a small fee, and would accept requests to bring food to users.  All food requests were stored in a Parse database and communication between the two parties was handled via SMS. This app won 3rd place overall, and I ported it to native iPhone since then.</p>
                 </div>
             </div>
@@ -188,8 +186,8 @@
 			<div class="screen chiellini wow fadeIn" data-wow-delay="3s" data-wow-duration="1s" data-type="iframe" data-source="www.youtube.com/watch?v=xKPRTjCqYnI"></div>
 		</div>
 		<div class="col-md-6 col-lg-pull-5">
-			<h2 class="Project-name">Chiellini</h2>	
-			<a href="https://github.com/dmattia/Chiellini">View on Github</a>
+			<h2 class="blue">Chiellini</h2>	
+			<a class="blue-link" href="https://github.com/dmattia/Chiellini">View on Github</a>
 			<p class="project-description">A pacman variant created using C and the Xlib graphics library.  You play as Giorgio Chiellini trying to avoid being bitten by Luis Suarez.  This was my first semester final project as a sophomore.</p>
 		</div>
 	    </div>
@@ -201,8 +199,8 @@
                        <div class="screen ge-watchface" data-type="image" data-source="../img/ge_screenshot.png"></div>
                 </div>
                 <div class="col-md-6">
-                        <h2 class="Project-name">Pebble Watchfaces</h2>
-                        <a href="https://github.com/dmattia/General-Electric-Watchface">View on Github</a>
+                        <h2 class="blue">Pebble Watchfaces</h2>
+                        <a class="blue-link" href="https://github.com/dmattia/General-Electric-Watchface">View on Github</a>
                         <p class="project-description">I have created many Pebble watchfaces using a variety of apis.  I created the faces natively with C and JavaScript.  This example was a personal watchface I created for the company I am interning for, GE. It relies on two separate apis: google finance for stock information and yahoo weather for the current temperature.</p>
                 </div>
             </div>
@@ -223,7 +221,7 @@
                  <div class="col-md-6">
                   <article class="education">
                     <header>
-                      <h3 class="centering wow fadeInLeft"><a href="Resume.pdf" target="new">Click here to view resume</a></h3>
+                      <h3 class="centering wow fadeInLeft"><a class="blue-link" href="Resume.pdf" target="new">Click here to view resume</a></h3>
                     </header>
                       <p><br><br><br></p>
                   </article>
@@ -231,7 +229,7 @@
                 <div class="col-md-6">
                 <article class="education">
                   <header>
-                    <h3 class="centering wow fadeInRight"><a href="Resume.pdf" download>Click here to download resume</a></h3>
+                    <h3 class="centering wow fadeInRight"><a class="blue-link" href="Resume.pdf" download>Click here to download resume</a></h3>
                   </header>
                     <p><br><br><br></p>
                 </article>
@@ -299,8 +297,6 @@
         <script src="js/waypoints.min.js"></script>
         <script src="js/main.js"></script>        
         <script src="js/wow.js"></script>
-        <script src="http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
-        <script src="js/particles.js"></script>
 	<script src="js/spectrum.js"></script>
         <script>
 		$("#flat").spectrum({
@@ -317,6 +313,19 @@
 			for (var i = 0; i < blues.length; i++) {
     			    blues[i].style.color=color.toHexString();
     			}
+			actives = document.getElementsByClassName('active');
+			for (var i = 0; i < actives.length; i++) {
+    			    actives[i].style.color=color.toHexString();
+    			}
+			spacers = document.getElementsByClassName('spacer');
+			for (var i = 0; i < spacers.length - 1; i++) {
+    			    spacers[i].style.backgroundColor=color.toHexString();
+    			}
+			links = document.getElementsByClassName('blue-link');
+			for (var i = 0; i < links.length; i++) {
+    			    links[i].style.color=color.toHexString();
+    			}
+			document.getElementById('page-contact').style.backgroundColor=color.toHexString();
 		    }
 		});
 		$(document).ready(function() {
@@ -327,7 +336,7 @@
 					type: this.getAttribute('data-type'),
 					items: {
 						src: this.getAttribute('data-source'),
-						title: this.parentElement.parentElement.getElementsByClassName('Project-name')[0].innerHTML 
+						title: this.parentElement.parentElement.getElementsByClassName('blue')[0].innerHTML 
 					}
 				});
 			});

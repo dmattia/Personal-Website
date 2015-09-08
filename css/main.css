@@ -156,10 +156,6 @@ h1,h2,h3,h4,h5,h6{
 	background-image:url(../img/Pacman.png);
 }
 
-.Project-name {
-	color: #3498db;
-}
-
 .project-description {
 	font-size: 20px;
 }
@@ -224,6 +220,10 @@ background-color: transparent;
     position: relative;
     overflow: hidden;
     text-align: center;
+    background: url('../img/slider/02.jpg');
+    background-size: cover;
+    background-position: 50% 50%;
+    background-attachment: fixed;
 }
 
 .page-welcome header{
@@ -239,7 +239,7 @@ background-color: transparent;
     font-weight: 700;
     letter-spacing: 0.1em;
     line-height: 1em;
-   text-transform: uppercase;
+    text-transform: uppercase;
 }
 
 .page-welcome header p{
